@@ -1,0 +1,8 @@
+
+client_config_backend: file
+client_config_file: driveupoadcred.json 
+
+get_refresh_token: True
+oauth_scope:
+  - https://www.googleapis.com/auth/drive
+  - https://www.googleapis.com/auth/drive.install
